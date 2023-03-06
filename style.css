@@ -1,44 +1,35 @@
-.container {
-    background-color: white;
-    margin-top: 150px;
-    width: 1000px;
-    height: 400px;
-    border-radius: 15px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.navigation .container .navbar .container-fluid .btn {
+    background: #312ECB;
+    color: white;
 }
 
-body {
-    background-color: #5860a6
+.header .container .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-    width: 120%;
-    height: 400px;
-    margin-left: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-right: 30px;
+.header .container .heading .left .btn {
+    background: #312ECB;
+    color: white;
 }
 
-form {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 1rem;
+.main .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.class-row {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 1rem;
+.checkservice .container .row .service-1 {
+    text-align: center;
 }
 
-.class-col {
-    display: grid;
-    grid-template-rows: auto;
-    grid-gap: 0, 5rem;
+.consult .btn {
+    background: #312ECB;
+    color: white;
+}
+
+.footer .container-fluid {
+    background-color: #0D1C37;
+    color: white;
 }
