@@ -12,12 +12,16 @@
 .header .container .heading .left .btn {
     background: #312ECB;
     color: white;
+    padding-top: 205;
+    padding: 205 123 0 138;
 }
 
 .main .container .content {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 205;
+    padding: 205 123 0 138;
 }
 
 .checkservice .container .row .service-1 {
